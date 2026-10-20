@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "archive": "Mechanicus-Sampleboard.zip",
+  "bytes": 149824724,
+  "fileCount": 743,
+  "samplePairs": 366,
+  "allCRCsValid": true,
+  "allWavHashesMatchManifest": true,
+  "sha256Archive": "0a2c95749705df2be62aae19086d996038d63b8bf3537b5a009d15f7cc788937"
+}

@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "sampleCount": 366,
+  "validatedAudioFiles": 732,
+  "formats": [
+    "WAV PCM 16-bit / 48 kHz / stereo",
+    "MP3 160 kbit/s"
+  ],
+  "countByCharacter": {
+    "Captrix": 24,
+    "Faustinius": 27,
+    "Khepra": 35,
+    "Reditus": 43,
+    "Rhezak": 35,
+    "Rho": 35,
+    "Scaevola": 39,
+    "Tiresus": 22,
+    "Videx": 40,
+    "Xerxetes": 22,
+    "Epsilius Dammek-Yoth": 30,
+    "Binharic · nicht zugeordnet": 13,
+    "Kontextaufnahme": 1
+  },
+  "verifiedDownloadedOriginalWavs": 352,
+  "totalAudioBytes": 163213484,
+  "checks": [
+    "File existence",
+    "Unique IDs",
+    "Provenance references",
+    "WAV SHA-256",
+    "Original downloaded WAV SHA-256",
+    "PCM parameters",
+    "Duration and source interval agreement",
+    "Nonzero signal",
+    "Peak <= -3 dBFS",
+    "5-ms faded edges",
+    "MP3 decoding"
+  ]
+}

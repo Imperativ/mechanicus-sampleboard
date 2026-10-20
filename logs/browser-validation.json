@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "browser": "153.0.8010.52",
+  "scheme": "file://",
+  "sampleCount": 366,
+  "checks": [
+    "file:// boot: actual manifest, all pads, 35% volume, no autoplay",
+    "Character/group/source filters and empty state",
+    "Actual local WAV decode/play plus progressing position",
+    "Exclusive playback and Escape stop-all",
+    "Overlap switch permits two real simultaneous clips",
+    "Loop remains playing past clip duration",
+    "Visible-pad keyboard shortcuts; typing in controls never triggers audio",
+    "Live master-volume change",
+    "Actual WAV/MP3 download paths and per-sample source links",
+    "Responsive 390px layout has no horizontal overflow",
+    "Missing manifest gives an explicit useful error, no synthetic replacement",
+    "Missing actual audio is reported and playback state resets",
+    "Actual MP3 browser decoding; natural completion resets the pad"
+  ],
+  "pageErrors": []
+}

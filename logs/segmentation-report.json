@@ -1,0 +1,90 @@
+[
+  {
+    "character": "Captrix",
+    "displayedAssetCount": 26,
+    "extractedClipCount": 25,
+    "thresholdDb": -36,
+    "minGapSeconds": 0.12,
+    "note": "Schnittzahl ist keine Bestätigung nativer Asset-Grenzen."
+  },
+  {
+    "character": "Faustinius",
+    "displayedAssetCount": 27,
+    "extractedClipCount": 28,
+    "thresholdDb": -36,
+    "minGapSeconds": 0.14,
+    "note": "Schnittzahl ist keine Bestätigung nativer Asset-Grenzen."
+  },
+  {
+    "character": "Khepra",
+    "displayedAssetCount": 37,
+    "extractedClipCount": 36,
+    "thresholdDb": -32,
+    "minGapSeconds": 0.12,
+    "note": "Schnittzahl ist keine Bestätigung nativer Asset-Grenzen."
+  },
+  {
+    "character": "Reditus",
+    "displayedAssetCount": 43,
+    "extractedClipCount": 44,
+    "thresholdDb": -36,
+    "minGapSeconds": 0.18,
+    "note": "Schnittzahl ist keine Bestätigung nativer Asset-Grenzen."
+  },
+  {
+    "character": "Rhezak",
+    "displayedAssetCount": 35,
+    "extractedClipCount": 35,
+    "thresholdDb": -38,
+    "minGapSeconds": 0.3,
+    "note": "Schnittzahl ist keine Bestätigung nativer Asset-Grenzen."
+  },
+  {
+    "character": "Rho",
+    "displayedAssetCount": 35,
+    "extractedClipCount": 35,
+    "thresholdDb": -36,
+    "minGapSeconds": 0.18,
+    "note": "Schnittzahl ist keine Bestätigung nativer Asset-Grenzen."
+  },
+  {
+    "character": "Scaevola",
+    "displayedAssetCount": 42,
+    "extractedClipCount": 39,
+    "thresholdDb": -34,
+    "minGapSeconds": 0.16,
+    "note": "Schnittzahl ist keine Bestätigung nativer Asset-Grenzen."
+  },
+  {
+    "character": "Tiresus",
+    "displayedAssetCount": 22,
+    "extractedClipCount": 22,
+    "thresholdDb": -36,
+    "minGapSeconds": 0.18,
+    "note": "Schnittzahl ist keine Bestätigung nativer Asset-Grenzen."
+  },
+  {
+    "character": "Videx",
+    "displayedAssetCount": 40,
+    "extractedClipCount": 39,
+    "thresholdDb": -38,
+    "minGapSeconds": 0.2,
+    "note": "Schnittzahl ist keine Bestätigung nativer Asset-Grenzen."
+  },
+  {
+    "character": "Xerxetes",
+    "displayedAssetCount": 22,
+    "extractedClipCount": 22,
+    "thresholdDb": -36,
+    "minGapSeconds": 0.18,
+    "note": "Schnittzahl ist keine Bestätigung nativer Asset-Grenzen."
+  },
+  {
+    "character": "Epsilius Dammek-Yoth",
+    "displayedAssetCount": 30,
+    "extractedClipCount": 30,
+    "thresholdDb": -36,
+    "minGapSeconds": 0.18,
+    "note": "Schnittzahl ist keine Bestätigung nativer Asset-Grenzen."
+  }
+]

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Mechanicus · Noosphären-Sampleboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="samples.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="masthead">
+      <div class="sigil" aria-hidden="true">⚙</div>
+      <div><p class="eyebrow">ARCHIVUM AUDIO // NOOSPHÄREN-INTERFACE</p><h1 id="board-title">Mechanicus Sampleboard</h1><p class="subtitle">Echte Aufnahmen aus den verlinkten Quellen. Keine synthetischen Platzhalter.</p></div>
+      <span class="system-tag">ROH_58 / AUDIO</span>
+    </header>
+    <main>
+      <section class="console" aria-label="Wiedergabesteuerung">
+        <div class="console-top"><div><span class="eyebrow">DATENBESTAND</span><p class="inventory"><strong id="total-count">0</strong> Samples <span id="visible-count"></span></p></div><button id="stop-all" class="stop-button" type="button">■ Alles stoppen <kbd>Esc</kbd></button></div>
+        <div class="controls">
+          <label class="search-control">Archiv durchsuchen<input id="search" type="search" placeholder="Titel, Charakter, Quelle …" autocomplete="off"></label>
+          <label>Charakter<select id="character"><option value="">Alle Charaktere</option></select></label>
+          <label>Gruppe<select id="group"><option value="">Alle Gruppen</option></select></label>
+          <label>Quelle<select id="source"><option value="">Alle Quellen</option></select></label>
+        </div>
+        <div class="transport"><label class="volume-control" for="volume">Master <input id="volume" type="range" min="0" max="100" value="35"><output id="volume-value" for="volume">35 %</output></label><label class="check-control"><input id="overlap" type="checkbox"> Überlagerung zulassen</label><span class="keyboard-hint">Pads <kbd>1</kbd>–<kbd>9</kbd> · erneut drücken: stoppen</span></div>
+      </section>
+      <div class="status-line"><span class="status-light" aria-hidden="true"></span><p id="status" role="status" aria-live="polite" aria-atomic="true">Manifest wird geprüft …</p></div>
+      <section id="pads" class="pad-grid" aria-label="Audio-Samples"></section>
+      <p id="empty" class="empty" hidden>Keine Samples für diese Auswahl. Filter oder Suchbegriff ändern.</p>
+      <section class="provenance" aria-labelledby="provenance-title"><div class="section-heading"><h2 id="provenance-title">Herkunft & Verarbeitung</h2><span class="eyebrow">TRANSPARENZ-PROTOKOLL</span></div><p class="warning">[UNGEWISS] Herkunft laut Uploader; nicht als Spielasset authentifiziert</p><p>Die Clips stammen aus heruntergeladenem Audio. Schnitt, Fades und Pegelanpassung können die Aufnahmen verändern: keine bitgenauen Original-Spieldateien.</p><p class="no-fallback">Keine synthetischen Ersatzsounds.</p><p>Automatischer Pausenschnitt: Grenzen nicht einzeln gehörgeprüft. Die Clipzahl kann von der Zahl nativer Spielassets abweichen. Die vollständigen Quellspuren bleiben im Projekt erhalten.</p><ul id="sources" class="sources"></ul><p id="processing-note"></p></section>
+    </main>
+    <footer><span>MECHANICUS / LOKALES AUDIO-ARCHIV</span><span>Kein Server · keine externen Abhängigkeiten</span></footer>
+  </div>
+</body>
+</html>
